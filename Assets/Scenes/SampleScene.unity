@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 409803129}
   m_Layer: 0
   m_Name: Ramp (1)
-  m_TagString: Untagged
+  m_TagString: Hit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1628,7 +1628,7 @@ GameObject:
   - component: {fileID: 1113291496}
   m_Layer: 0
   m_Name: Ramp
-  m_TagString: Untagged
+  m_TagString: Hit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2250,6 +2250,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 813132364441528224, guid: 0f9ef5c652a583a4090741c523adf7c3, type: 3}
   m_PrefabInstance: {fileID: 1406661062}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1416718310 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5778624774478422481, guid: a4c40cbf6a2ab7348912552113b26763, type: 3}
+  m_PrefabInstance: {fileID: 518016784903570172}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1422751725
 PrefabInstance:
@@ -3212,6 +3217,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 112498136052553306, guid: a4c40cbf6a2ab7348912552113b26763, type: 3}
   m_PrefabInstance: {fileID: 518016784903570172}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &486373298386523306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416718310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6c87c350a24f34ea59cf10069bc205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &518016784903570172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3267,7 +3284,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 518016784361993079, guid: a4c40cbf6a2ab7348912552113b26763, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4c40cbf6a2ab7348912552113b26763, type: 3}
 --- !u!1001 &1972130109888317903
 PrefabInstance:
